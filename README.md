@@ -36,12 +36,12 @@ To use xkcd ASCII Viewer, you must have the following installed:
    ./install.sh
    ```
 
-3. Done! You can now run `xkcd-shell` from anywhere in your terminal.
+3. Done! You can now run `xkcd-ascii-viewer` from anywhere in your terminal.
 
 ## Usage
 To view the latest XKCD comic:
 ```bash
-xkcd-shell
+xkcd-ascii-viewer
 ```
 This command fetches the comic, converts it to ASCII art, and displays it in your terminal.
 
