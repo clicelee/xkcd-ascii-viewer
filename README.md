@@ -2,8 +2,13 @@
 xkcd ASCII Viewer is a simple script that allows you to view daily [xkcd webcomics](https://xkcd.com) as ASCII art directly in your terminal. The idea originated from the fact that visiting xkcd.com always shows a new comic every day. No need to visit the XKCD website — simply open your terminal, and enjoy the latest comic in ascii art.
 
 ## Preview
+<table style="width: 100%;">
+  <tr>
+     <td><img src="https://github.com/user-attachments/assets/c6c82b66-b7d3-479f-8be2-80418b51b959" width="100%"></td>
+     <td><img src="https://github.com/user-attachments/assets/ff6d066c-9bba-4a71-a6bc-5243828c54cd" width="100%"></td>
+  </tr>
+</table>
 
-![PREVIEW](https://github.com/user-attachments/assets/ff6d066c-9bba-4a71-a6bc-5243828c54cd)
 
 ## Features
 - **Daily xkcd Comics**: Automatically fetches the latest comic from the xkcd website.
