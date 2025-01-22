@@ -1,21 +1,21 @@
-# XKCD ASCII Viewer
+# xkcd ASCII Viewer
 
-XKCD ASCII Viewer is a simple script that allows you to view daily XKCD webcomics as ASCII art directly in your terminal. No need to visit the [XKCD website](https://xkcd.com/) — simply open your terminal, and enjoy the latest comic in ascii art.
+xkcd ASCII Viewer is a simple script that allows you to view daily [xkcd webcomics](https://xkcd.com) as ASCII art directly in your terminal. The idea originated from the fact that visiting xkcd.com always shows a new comic every day. No need to visit the XKCD website — simply open your terminal, and enjoy the latest comic in ascii art.
 
 ## Features
-- **Daily XKCD Comics**: Automatically fetches the latest comic from the XKCD website.
+- **Daily xkcd Comics**: Automatically fetches the latest comic from the xkcd website.
 - **ASCII Art**: Converts the comic into a readable and nostalgic ASCII art format.
 - **Seamless Integration**: Display the comic right in your terminal.
 
 ## Prerequisites
-To use XKCD ASCII Viewer, you must have the following installed:
+To use xkcd ASCII Viewer, you must have the following installed:
 
 1. **ascii-image-converter**
    - This tool is essential for converting images to ASCII art.
-   - Install it using Node.js:
-     ```bash
-     npm install -g ascii-image-converter
-     ```
+   - Install it using Homebrew
+   ```bash
+   brew install TheZoraiz/ascii-image-converter/ascii-image-converter
+   ```
 
 2. **curl** (for fetching the comic data).
 
@@ -43,7 +43,7 @@ xkcd-shell
 This command fetches the comic, converts it to ASCII art, and displays it in your terminal.
 
 ## How It Works
-- The script fetches the latest comic from the XKCD website.
+- The script fetches the latest comic from the xkcd website.
 - It downloads the image and converts it to ASCII art using `ascii-image-converter` with the following options:
   - `-b`: Removes the background.
   - `-n`: Displays in black and white.
@@ -54,15 +54,15 @@ This command fetches the comic, converts it to ASCII art, and displays it in you
 If you encounter issues:
 1. Ensure `ascii-image-converter` is installed:
    ```bash
-   npm install -g ascii-image-converter
+   brew install TheZoraiz/ascii-image-converter/ascii-image-converter
    ```
 
-2. Check if `curl` is installed:
+3. Check if `curl` is installed:
    ```bash
    curl --version
    ```
 
-3. Ensure you have internet access to fetch the comic.
+4. Ensure you have internet access to fetch the comic.
 
 ## Contributing
 Feel free to submit pull requests or open issues to improve this project :)
